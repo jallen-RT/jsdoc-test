@@ -1,0 +1,14 @@
+{ "compilerOptions":
+  { "module": "system"
+  , "allowJs": true
+  , "checkJs": false
+  , "strict": true
+  , "noImplicitAny": true
+  , "removeComments": true
+  , "sourceMap": true
+  }
+  , "exclude":
+    [ "webpack.*.js"
+    , "index.js"
+    ]
+}

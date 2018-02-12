@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc-test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "fork-ts-checker-webpack-plugin": "^0.3.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
