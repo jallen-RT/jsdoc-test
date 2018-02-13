@@ -1,4 +1,4 @@
-const JSDocChecker = new require('fork-ts-checker-webpack-plugin')
+const JSDocChecker = require('fork-ts-checker-webpack-plugin')
   
 module.exports =
   { entry: './foo.js'
@@ -17,7 +17,8 @@ module.exports =
   , plugins:
     [ new JSDocChecker(
       { vue: true
-      , async: true
+      , async: false
+      , tsconfig: 'jsdoc-config.json'
       })
     ]
   }
